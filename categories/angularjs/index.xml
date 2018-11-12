@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angularjs on Bargav Kondapu</title>
+    <link>https://bargavkondapu.com/categories/angularjs/</link>
+    <description>Recent content in Angularjs on Bargav Kondapu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Oct 2017 15:09:46 -0500</lastBuildDate>
+    
+	<atom:link href="https://bargavkondapu.com/categories/angularjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acquisition Gateway GSA</title>
+      <link>https://bargavkondapu.com/projects/acquisition-gateway-gsa/</link>
+      <pubDate>Wed, 11 Oct 2017 15:09:46 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/acquisition-gateway-gsa/</guid>
+      <description>The Acquisition Gateway is your workspace for acquisition professionals and federal buyers to connect with resources, tools and each other to improve acquisition government-wide.
+This website is built in Drupal 7 and AngularJS, in a progress decoupled architecture. Aside from regular updates and changes, I have enhanced search functionality, developed custom modules to remove duplicate taxonomy and to create organic groups based on taxonomy.
+Project URL: https://hallways.cap.gsa.gov
+Technologies Used : Drupal, Apache Solr, Github, Amazon AWS, AngularJS.</description>
+    </item>
+    
+  </channel>
+</rss>
