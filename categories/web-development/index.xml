@@ -24,6 +24,18 @@ Technologies Used : Drupal, Apache Solr, Github, Amazon AWS, AngularJS.</descrip
     </item>
     
     <item>
+      <title>FirstNet</title>
+      <link>https://bargavkondapu.com/projects/firstnet/</link>
+      <pubDate>Sun, 25 Jun 2017 14:53:00 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/firstnet/</guid>
+      <description>The FirstNet mission is to deploy, operate, maintain, and improve the first high-speed, nationwide wireless broadband network dedicated to public safety.
+This website is front facing , first step for the experience. It is implemented in drupal8, using panels and layout modules. This site is robust, secure and 508 Accessibility Compliant.
+Project URL: https://www.firstnet.com/
+Technologies Used : Drupal, Jenkins, Acquia, Amazon AWS.</description>
+    </item>
+    
+    <item>
       <title>Architectural Adventures</title>
       <link>https://bargavkondapu.com/projects/architectural-adventures/</link>
       <pubDate>Sun, 11 Dec 2016 14:32:21 -0500</pubDate>

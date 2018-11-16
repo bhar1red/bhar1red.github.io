@@ -6,10 +6,32 @@
     <description>Recent content in Projects on Bargav Kondapu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Nov 2017 16:00:42 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 16 Nov 2018 01:43:11 -0500</lastBuildDate>
     
 	<atom:link href="https://bargavkondapu.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Haveli Bistro</title>
+      <link>https://bargavkondapu.com/projects/haveli-bistro/</link>
+      <pubDate>Fri, 16 Nov 2018 01:43:11 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/haveli-bistro/</guid>
+      <description>Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
+This is implemented during my job at AIA. It follows the same architecture and principles as that of the the previous project.
+Project URL: https://www.architecturaladventures.org/
+Technologies Used : Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, Amazon AWS.</description>
+    </item>
+    
+    <item>
+      <title>Drupal 7 Migrate Taxonomy to Organic Groups</title>
+      <link>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</link>
+      <pubDate>Fri, 16 Nov 2018 01:42:49 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</guid>
+      <description>Organic Groups module for drupal, enable users to create and manage their own &amp;lsquo;groups&amp;rsquo;. Each group can have subscribers, and maintains a group home page where subscribers communicate amongst themselves.
+A website of a federal client, that I worked on, had custom groups functionality, implemented using taxonomy. It became out-of-scale to manage that way, any longer and also they with restricted, by that. This module, crawls through each taxonomy term, create an organic group, based on those terms.</description>
+    </item>
     
     <item>
       <title>Drupal 7 Tags Cleanup</title>
@@ -32,6 +54,18 @@ This module, is created as a drush command, scans through such tags, identify wh
 This website is built in Drupal 7 and AngularJS, in a progress decoupled architecture. Aside from regular updates and changes, I have enhanced search functionality, developed custom modules to remove duplicate taxonomy and to create organic groups based on taxonomy.
 Project URL: https://hallways.cap.gsa.gov
 Technologies Used : Drupal, Apache Solr, Github, Amazon AWS, AngularJS.</description>
+    </item>
+    
+    <item>
+      <title>FirstNet</title>
+      <link>https://bargavkondapu.com/projects/firstnet/</link>
+      <pubDate>Sun, 25 Jun 2017 14:53:00 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/firstnet/</guid>
+      <description>The FirstNet mission is to deploy, operate, maintain, and improve the first high-speed, nationwide wireless broadband network dedicated to public safety.
+This website is front facing , first step for the experience. It is implemented in drupal8, using panels and layout modules. This site is robust, secure and 508 Accessibility Compliant.
+Project URL: https://www.firstnet.com/
+Technologies Used : Drupal, Jenkins, Acquia, Amazon AWS.</description>
     </item>
     
     <item>
