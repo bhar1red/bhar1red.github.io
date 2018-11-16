@@ -6,32 +6,10 @@
     <description>Recent content on Bargav Kondapu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Nov 2018 01:43:11 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 23:10:40 -0500</lastBuildDate>
     
 	<atom:link href="https://bargavkondapu.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Haveli Bistro</title>
-      <link>https://bargavkondapu.com/projects/haveli-bistro/</link>
-      <pubDate>Fri, 16 Nov 2018 01:43:11 -0500</pubDate>
-      
-      <guid>https://bargavkondapu.com/projects/haveli-bistro/</guid>
-      <description>Haveli bistro is an upscale Indian restaurant, in Down Town Columbus, Ohio.
-I have worked on branding and development of the website. Website is built and hosted in DUDA professional webbuilder.
-Project URL: https://www.havelibistro.com/
-Technologies Used : Duda,</description>
-    </item>
-    
-    <item>
-      <title>Drupal 7 Migrate Taxonomy to Organic Groups</title>
-      <link>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</link>
-      <pubDate>Fri, 16 Nov 2018 01:42:49 -0500</pubDate>
-      
-      <guid>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</guid>
-      <description>Organic Groups module for drupal, enable users to create and manage their own &amp;lsquo;groups&amp;rsquo;. Each group can have subscribers, and maintains a group home page where subscribers communicate amongst themselves.
-A website of a federal client, that I worked on, had custom groups functionality, implemented using taxonomy. It became out-of-scale to manage that way, any longer and also they with restricted, by that. This module, crawls through each taxonomy term, create an organic group, based on those terms.</description>
-    </item>
     
     <item>
       <title>10 Rules for Profitable Self Discipline</title>
@@ -136,6 +114,16 @@ X: There is no problem with those articles, but the problem is with such article
       
       <guid>https://bargavkondapu.com/notes/note-27/</guid>
       <description>A Wealth Of Information Creates A Poverty Of Attention</description>
+    </item>
+    
+    <item>
+      <title>Drupal 7 Migrate Taxonomy to Organic Groups</title>
+      <link>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</link>
+      <pubDate>Fri, 10 Nov 2017 16:00:42 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</guid>
+      <description>Organic Groups module for drupal, enable users to create and manage their own &amp;lsquo;groups&amp;rsquo;. Each group can have subscribers, and maintains a group home page where subscribers communicate amongst themselves.
+A website of a federal client, that I worked on, had custom groups functionality, implemented using taxonomy. It became out-of-scale to manage that way, any longer and also they with restricted, by that. This module, crawls through each taxonomy term, create an organic group, based on those terms.</description>
     </item>
     
     <item>
@@ -400,6 +388,18 @@ Technologies Used : Drupal, Jenkins, Acquia, Amazon AWS.</description>
       <guid>https://bargavkondapu.com/notes/note-20/</guid>
       <description>Elagaina brathakali ante elagola brathikeyachu, Gaani ilage brathakali ante, veelu padadhu ee samajam lo.
  English: If we want to just live, we can live anyway. But if we want to live our way, on our terms, on our set of principles, the society won&amp;rsquo;t let you.</description>
+    </item>
+    
+    <item>
+      <title>Haveli Bistro</title>
+      <link>https://bargavkondapu.com/projects/haveli-bistro/</link>
+      <pubDate>Mon, 20 Mar 2017 01:43:11 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/haveli-bistro/</guid>
+      <description>Haveli bistro is an upscale Indian restaurant, in Down Town Columbus, Ohio.
+I have worked on branding and development of the website. Website is built and hosted in DUDA professional webbuilder.
+Project URL: https://www.havelibistro.com/
+Technologies Used : Duda,</description>
     </item>
     
     <item>

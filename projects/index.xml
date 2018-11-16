@@ -6,27 +6,15 @@
     <description>Recent content in Projects on Bargav Kondapu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Nov 2018 01:43:11 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2017 16:00:42 -0500</lastBuildDate>
     
 	<atom:link href="https://bargavkondapu.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Haveli Bistro</title>
-      <link>https://bargavkondapu.com/projects/haveli-bistro/</link>
-      <pubDate>Fri, 16 Nov 2018 01:43:11 -0500</pubDate>
-      
-      <guid>https://bargavkondapu.com/projects/haveli-bistro/</guid>
-      <description>Haveli bistro is an upscale Indian restaurant, in Down Town Columbus, Ohio.
-I have worked on branding and development of the website. Website is built and hosted in DUDA professional webbuilder.
-Project URL: https://www.havelibistro.com/
-Technologies Used : Duda,</description>
-    </item>
-    
-    <item>
       <title>Drupal 7 Migrate Taxonomy to Organic Groups</title>
       <link>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</link>
-      <pubDate>Fri, 16 Nov 2018 01:42:49 -0500</pubDate>
+      <pubDate>Fri, 10 Nov 2017 16:00:42 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</guid>
       <description>Organic Groups module for drupal, enable users to create and manage their own &amp;lsquo;groups&amp;rsquo;. Each group can have subscribers, and maintains a group home page where subscribers communicate amongst themselves.
@@ -66,6 +54,18 @@ Technologies Used : Drupal, Apache Solr, Github, Amazon AWS, AngularJS.</descrip
 This website is front facing , first step for the experience. It is implemented in drupal8, using panels and layout modules. This site is robust, secure and 508 Accessibility Compliant.
 Project URL: https://www.firstnet.com/
 Technologies Used : Drupal, Jenkins, Acquia, Amazon AWS.</description>
+    </item>
+    
+    <item>
+      <title>Haveli Bistro</title>
+      <link>https://bargavkondapu.com/projects/haveli-bistro/</link>
+      <pubDate>Mon, 20 Mar 2017 01:43:11 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/projects/haveli-bistro/</guid>
+      <description>Haveli bistro is an upscale Indian restaurant, in Down Town Columbus, Ohio.
+I have worked on branding and development of the website. Website is built and hosted in DUDA professional webbuilder.
+Project URL: https://www.havelibistro.com/
+Technologies Used : Duda,</description>
     </item>
     
     <item>

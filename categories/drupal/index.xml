@@ -6,7 +6,7 @@
     <description>Recent content in Drupal on Bargav Kondapu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Nov 2018 01:42:49 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2017 16:00:42 -0500</lastBuildDate>
     
 	<atom:link href="https://bargavkondapu.com/categories/drupal/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Drupal 7 Migrate Taxonomy to Organic Groups</title>
       <link>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</link>
-      <pubDate>Fri, 16 Nov 2018 01:42:49 -0500</pubDate>
+      <pubDate>Fri, 10 Nov 2017 16:00:42 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</guid>
       <description>Organic Groups module for drupal, enable users to create and manage their own &amp;lsquo;groups&amp;rsquo;. Each group can have subscribers, and maintains a group home page where subscribers communicate amongst themselves.
