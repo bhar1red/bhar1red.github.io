@@ -2,7 +2,7 @@ a{
   text-decoration: none;
 }
 p{
-  text-align: justify;
+  text-align: left;
 }
 
 pre {
@@ -15,6 +15,10 @@ pre code{
 }
 code{
   color: teal;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
 }
 
 #content a{
@@ -86,6 +90,11 @@ code{
     margin: auto;
 }
 
+.bk-maincontent img[src*='#copyright'] {
+    float: left;
+    width: 200px;
+}
+
 .bk-maincontent h1 h2{
   clear: both;
 }
@@ -94,6 +103,12 @@ code{
 .bk-maincontent{
   font-size: large;
   font-family: sans-serif;
+}
+
+.bk-copyright-text{
+  font-size: x-small;
+  color: lightgrey;
+
 }
 
  blockquote {
