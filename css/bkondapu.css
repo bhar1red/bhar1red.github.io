@@ -18,7 +18,8 @@ code{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-weight: bold;
+  color: teal;
+    font-family: 'Open Sans',sans-serif;
 }
 
 #content a{
@@ -48,13 +49,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .bk-post-card {
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 500px;
+  max-height: 500px;
 }
 
 .bk-post-card p{
   padding: 8px;
-  font-size: small;
+  font-size: large;
 }
 
 .bk-tags-list {
@@ -101,8 +102,8 @@ h1, h2, h3, h4, h5, h6{
 
 
 .bk-maincontent{
-  font-size: large;
-  font-family: sans-serif;
+  font-size: x-large;
+  font-family: 'Spectral',serif;
 }
 
 .bk-copyright-text{
