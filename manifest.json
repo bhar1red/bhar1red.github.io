@@ -1,0 +1,16 @@
+{
+  "short_name": "Bargav Kondapu",
+  "name": "Bargav Kondapu",
+  "icons": [
+    {
+      "src": "/images/bk-profile-sm.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    },
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#008b7d"
+}
