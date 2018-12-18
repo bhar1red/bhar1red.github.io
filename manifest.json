@@ -1,5 +1,5 @@
 {
-  "short_name": "Bargav Kondapu",
+  "short_name": "Bargav",
   "name": "Bargav Kondapu",
   "icons": [
     {
@@ -8,9 +8,13 @@
       "sizes": "200x200"
     },
   ],
-  "start_url": "/?source=pwa",
-  "background_color": "#fff",
+  "start_url": "/index.html",
   "display": "standalone",
+  "background_color": "#fff",
   "scope": "/",
-  "theme_color": "#008b7d"
+  "theme_color": "#008b7d",
+  "serviceworker": {
+  "src": "service-worker.js",
+  "scope": "/"
+  }
 }
