@@ -15,6 +15,7 @@ self.addEventListener('install', function(evt) {
     `/css/w3.css`,
     `/css/bkondapu.css`,
     `/`,
+    `https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css`,
     `/index.html`,
     `/404.html`,
     `/page/2/`,
@@ -48,4 +49,17 @@ function update(request) {
       });
     });
   });
+}
+
+function refresh(response) {
+  return self.clients.matchAll().then(function (clients) {
+    clients.forEach(function (client) {
+      var message = {
+        type: 'refresh',
+        url: response.url,
+        eTag: response.headers.get('ETag')
+      };
+      client.postMessage(JSON.stringify(message));
+   });
+ });
 }
