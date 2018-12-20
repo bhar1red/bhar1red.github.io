@@ -9,7 +9,6 @@ const version = "0.0.2";
 const cacheName = `bargavkondapu-${version}`;
 
 self.addEventListener('install', function(evt) {
-  console.log('The service worker is being installed.');
   evt.waitUntil(caches.open(cacheName).then(function (cache) {
   cache.addAll([
     `/css/w3.css`,
@@ -25,8 +24,6 @@ self.addEventListener('install', function(evt) {
 });
 
 self.addEventListener('fetch', function(evt) {
-  console.log('The service worker is serving the asset.');
-
   evt.respondWith(fromCache(evt.request));
 
   evt.waitUntil(
