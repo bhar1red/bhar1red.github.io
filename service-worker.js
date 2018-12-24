@@ -5,7 +5,7 @@
  *
  */
 
-const version = "0.1.0";
+const version = "0.1.1";
 const cacheName = 'bargavkondapu-${version}';
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -13,11 +13,7 @@ self.addEventListener('install', e => {
       return cache.addAll([
         `/css/w3.css`,
         `/css/bkondapu.css`,
-        `/`,
-        `/index.html`,
         `/404.html`,
-        `/page/2/`,
-        `/page/3/`,
         '/offline.html'
       ])
           .then(() => self.skipWaiting());
@@ -25,33 +21,24 @@ self.addEventListener('install', e => {
   );
 });
 
-self.addEventListener('activate', event => {
-  event.waitUntil(self.clients.claim());
-});
-
 self.addEventListener('fetch', function(event) {
-  evt.respondWith(fromNetwork(evt.request, 400).catch(function () {
-    return fromCache(evt.request);
-  }));
+  event.respondWith(
+    // Try the network
+    fetch(event.request)
+      .then(function(res) {
+        return caches.open(cacheName)
+          .then(function(cache) {
+            // Put in cache if succeeds
+            cache.put(event.request.url, res.clone());
+            return res;
+          })
+      })
+      .catch(function(err) {
+          // Fallback to cache
+          return caches.match(event.request);
+      })
+  );
 });
-
-function fromNetwork(request, timeout) {
-  return new Promise(function (fulfill, reject) {
-    var timeoutId = setTimeout(reject, timeout);
-    fetch(request).then(function (response) {
-    clearTimeout(timeoutId);
-    fulfill(response);
-    }, reject);
-    });
-}
-
-function fromCache(request) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      return matching || Promise.reject('no-match');
-    });
-  });
-}
 
 
 self.addEventListener('activate', function(event) {
@@ -69,4 +56,5 @@ self.addEventListener('activate', function(event) {
       );
     })
   );
+  return self.clients.claim();
 });
