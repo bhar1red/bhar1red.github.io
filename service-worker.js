@@ -5,7 +5,7 @@
  *
  */
 
-const version = "0.0.7";
+const version = "0.0.9";
 const cacheName = 'bargavkondapu-${version}';
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -17,7 +17,8 @@ self.addEventListener('install', e => {
         `/index.html`,
         `/404.html`,
         `/page/2/`,
-        `/page/3/`
+        `/page/3/`,
+        'offline.html'
       ])
           .then(() => self.skipWaiting());
     })
@@ -29,9 +30,15 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', function(event) {
+  var request = event.request;
+  console.log(request);
   event.respondWith(
     caches.open('bargavkondapu-${version}').then(function(cache) {
       return cache.match(event.request).then(function (response) {
+        if(response.status == 200){
+          console.log('site is offline');
+        }
+        console.log(response.status);
         return response || fetch(event.request).then(function(response) {
           cache.put(event.request, response.clone());
           return response;
