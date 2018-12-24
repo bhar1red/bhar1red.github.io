@@ -5,8 +5,8 @@
  *
  */
 
-const version = "0.0.1";
-const cacheName = `bargavkondapu-${version}`;
+const version = "0.0.7";
+const cacheName = 'bargavkondapu-${version}';
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
@@ -28,12 +28,32 @@ self.addEventListener('activate', event => {
   event.waitUntil(self.clients.claim());
 });
 
-/* self.addEventListener('fetch', event => {
+self.addEventListener('fetch', function(event) {
   event.respondWith(
-    caches.open(cacheName)
-      .then(cache => cache.match(event.request, {ignoreSearch: true}))
-      .then(response => {
-      return response || fetch(event.request);
+    caches.open('bargavkondapu-${version}').then(function(cache) {
+      return cache.match(event.request).then(function (response) {
+        return response || fetch(event.request).then(function(response) {
+          cache.put(event.request, response.clone());
+          return response;
+        });
+      });
     })
   );
-}); */
+});
+
+self.addEventListener('activate', function(event) {
+
+  var cacheWhitelist = ['bargavkondapu-${version}'];
+
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.map(function(cacheName) {
+          if (cacheWhitelist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
