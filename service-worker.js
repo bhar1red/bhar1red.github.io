@@ -15,8 +15,7 @@ self.addEventListener('install', e => {
         `/css/bkondapu.css`,
         `/404.html`,
         '/offline.html'
-      ])
-          .then(() => self.skipWaiting());
+      ]);
     })
   );
 });
