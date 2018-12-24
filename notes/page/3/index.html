@@ -448,5 +448,14 @@ Desperate to stand out, but compelled to fly with the flock.</p>
 
 
 
+
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/service-worker.js')
+           .then(function() {  });
+}
+</script>
+
 </body>
 </html>

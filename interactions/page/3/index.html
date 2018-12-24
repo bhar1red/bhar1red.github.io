@@ -299,5 +299,14 @@ But it is only during journeys, you get to see their true selfless faces.</p>
 
 
 
+
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/service-worker.js')
+           .then(function() {  });
+}
+</script>
+
 </body>
 </html>

@@ -444,5 +444,14 @@ Is it my journey? Am I the one walking?</p>
 
 
 
+
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/service-worker.js')
+           .then(function() {  });
+}
+</script>
+
 </body>
 </html>

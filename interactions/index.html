@@ -530,5 +530,14 @@ I guess, happiness is contagious. I am pretty sure, your next customer will be h
 
 
 
+
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/service-worker.js')
+           .then(function() {  });
+}
+</script>
+
 </body>
 </html>

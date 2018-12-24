@@ -500,5 +500,14 @@ where else would you find people that don&rsquo;t keep complaining and move on i
 
 
 
+
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/service-worker.js')
+           .then(function() {  });
+}
+</script>
+
 </body>
 </html>
