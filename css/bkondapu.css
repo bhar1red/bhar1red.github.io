@@ -3,8 +3,8 @@ a{
 }
 p{
   text-align: left;
+  text-overflow: ellipsis;
 }
-
 pre {
   background-color: #272822;
   padding: 10px;
