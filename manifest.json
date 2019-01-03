@@ -3,13 +3,13 @@
   "name": "Bargav Kondapu",
   "icons": [
     {
-      "src": "/images/bk-profile-sm.jpeg",
-      "type": "image/jpeg",
+      "src": "/images/bk-profile-sm.png",
+      "type": "image/png",
       "sizes": "200x200"
     },
     {
-      "src": "/images/bk-profile-sm.jpeg",
-      "type": "image/jpeg",
+      "src": "/images/bk-profile-sm.png",
+      "type": "image/png",
       "sizes": "512x512"
     }
   ],
