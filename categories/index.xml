@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bargav Kondapu</title>
@@ -6,17 +6,26 @@
     <description>Recent content in Categories on Bargav Kondapu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Oct 2017 15:09:46 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 20 Mar 2018 01:43:11 -0500</lastBuildDate>
     
 	<atom:link href="https://bargavkondapu.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Angularjs</title>
-      <link>https://bargavkondapu.com/categories/angularjs/</link>
-      <pubDate>Wed, 11 Oct 2017 15:09:46 -0500</pubDate>
+      <title>Duda</title>
+      <link>https://bargavkondapu.com/categories/duda/</link>
+      <pubDate>Tue, 20 Mar 2018 01:43:11 -0500</pubDate>
       
-      <guid>https://bargavkondapu.com/categories/angularjs/</guid>
+      <guid>https://bargavkondapu.com/categories/duda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-development</title>
+      <link>https://bargavkondapu.com/categories/web-development/</link>
+      <pubDate>Tue, 20 Mar 2018 01:43:11 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/categories/web-development/</guid>
       <description></description>
     </item>
     
@@ -30,29 +39,20 @@
     </item>
     
     <item>
-      <title>Duda</title>
-      <link>https://bargavkondapu.com/categories/duda/</link>
-      <pubDate>Tue, 20 Mar 2018 01:43:11 -0500</pubDate>
+      <title>AngularJS</title>
+      <link>https://bargavkondapu.com/categories/angularjs/</link>
+      <pubDate>Wed, 11 Oct 2017 15:09:46 -0500</pubDate>
       
-      <guid>https://bargavkondapu.com/categories/duda/</guid>
+      <guid>https://bargavkondapu.com/categories/angularjs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Emberjs</title>
+      <title>EmberJS</title>
       <link>https://bargavkondapu.com/categories/emberjs/</link>
       <pubDate>Sun, 11 Dec 2016 14:32:21 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/categories/emberjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Development</title>
-      <link>https://bargavkondapu.com/categories/web-development/</link>
-      <pubDate>Tue, 20 Mar 2018 01:43:11 -0500</pubDate>
-      
-      <guid>https://bargavkondapu.com/categories/web-development/</guid>
       <description></description>
     </item>
     

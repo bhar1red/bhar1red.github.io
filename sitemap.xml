@@ -1,9 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bargavkondapu.com/</loc>
+    <lastmod>2019-12-17T12:36:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/interactions/</loc>
+    <lastmod>2019-12-17T12:36:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/interactions/interaction-20/</loc>
+    <lastmod>2019-12-17T12:36:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/tags/digital-marketing/</loc>
+    <lastmod>2019-12-03T12:03:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/tags/leadership/</loc>
+    <lastmod>2019-12-03T12:03:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/tags/motivation/</loc>
+    <lastmod>2019-12-03T12:03:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/posts/</loc>
+    <lastmod>2019-12-03T12:03:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/posts/problem-with-fake-news-in-digital-marketing/</loc>
+    <lastmod>2019-12-03T12:03:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/tags/</loc>
+    <lastmod>2019-12-03T12:03:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bargavkondapu.com/notes/note-35/</loc>
+    <lastmod>2019-01-12T21:48:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/notes/</loc>
     <lastmod>2019-01-12T21:48:36-05:00</lastmod>
   </url>
   
@@ -23,6 +73,11 @@
   </url>
   
   <url>
+    <loc>https://bargavkondapu.com/tags/philosophy/</loc>
+    <lastmod>2018-11-13T23:10:40-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bargavkondapu.com/notes/note-33/</loc>
     <lastmod>2018-04-21T22:02:35-05:00</lastmod>
   </url>
@@ -33,7 +88,27 @@
   </url>
   
   <url>
+    <loc>https://bargavkondapu.com/categories/</loc>
+    <lastmod>2018-03-20T01:43:11-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/categories/duda/</loc>
+    <lastmod>2018-03-20T01:43:11-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bargavkondapu.com/projects/haveli-bistro/</loc>
+    <lastmod>2018-03-20T01:43:11-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/projects/</loc>
+    <lastmod>2018-03-20T01:43:11-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/categories/web-development/</loc>
     <lastmod>2018-03-20T01:43:11-05:00</lastmod>
   </url>
   
@@ -73,6 +148,11 @@
   </url>
   
   <url>
+    <loc>https://bargavkondapu.com/categories/drupal/</loc>
+    <lastmod>2017-11-10T16:00:42-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bargavkondapu.com/projects/drupal-7-migrate-taxonomy-to-organic-groups/</loc>
     <lastmod>2017-11-10T16:00:42-05:00</lastmod>
   </url>
@@ -98,6 +178,11 @@
   </url>
   
   <url>
+    <loc>https://bargavkondapu.com/categories/angularjs/</loc>
+    <lastmod>2017-10-11T15:09:46-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bargavkondapu.com/interactions/interaction-15/</loc>
     <lastmod>2017-10-09T19:34:10-05:00</lastmod>
   </url>
@@ -109,6 +194,11 @@
   
   <url>
     <loc>https://bargavkondapu.com/posts/leadership-ft-dashavatar/</loc>
+    <lastmod>2017-09-27T16:25:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bargavkondapu.com/tags/mythology/</loc>
     <lastmod>2017-09-27T16:25:16-05:00</lastmod>
   </url>
   
@@ -208,8 +298,13 @@
   </url>
   
   <url>
+    <loc>https://bargavkondapu.com/categories/emberjs/</loc>
+    <lastmod>2016-12-11T14:32:21-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bargavkondapu.com/projects/the-american-institure-of-architects/</loc>
-    <lastmod>2016-12-11T14:00:51-05:00</lastmod>
+    <lastmod>2016-12-11T19:00:51+00:00</lastmod>
   </url>
   
   <url>
@@ -330,102 +425,6 @@
   <url>
     <loc>https://bargavkondapu.com/interactions/interaction-1/</loc>
     <lastmod>2014-11-06T11:02:28-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/categories/angularjs/</loc>
-    <lastmod>2017-10-11T15:09:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/</loc>
-    <lastmod>2019-01-12T21:48:36-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/categories/</loc>
-    <lastmod>2017-10-11T15:09:46-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/categories/drupal/</loc>
-    <lastmod>2017-11-10T16:00:42-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/categories/duda/</loc>
-    <lastmod>2018-03-20T01:43:11-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/categories/emberjs/</loc>
-    <lastmod>2016-12-11T14:32:21-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/interactions/</loc>
-    <lastmod>2018-12-19T21:28:48-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/tags/leadership/</loc>
-    <lastmod>2018-11-13T23:10:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/tags/motivation/</loc>
-    <lastmod>2018-11-13T23:10:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/tags/mythology/</loc>
-    <lastmod>2017-09-27T16:25:16-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/notes/</loc>
-    <lastmod>2019-01-12T21:48:36-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/tags/philosophy/</loc>
-    <lastmod>2018-11-13T23:10:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/posts/</loc>
-    <lastmod>2018-11-13T23:10:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/projects/</loc>
-    <lastmod>2018-03-20T01:43:11-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/tags/</loc>
-    <lastmod>2018-11-13T23:10:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bargavkondapu.com/categories/web-development/</loc>
-    <lastmod>2018-03-20T01:43:11-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
