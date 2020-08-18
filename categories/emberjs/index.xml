@@ -31,7 +31,7 @@ Technologies Used : Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, A
       <guid>https://bargavkondapu.com/projects/the-american-institure-of-architects/</guid>
       <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
 The American Institute of Architects is a professional organization for architects in the United States. I feel privileged to work for this organization. As a web developer there, from 2015-2016, we built this website, using Drupal 8 and EmberJS.
-This project is one of early adopters of &amp;lsquo;Progressive Decoupled&amp;rsquo; architecture. We made use Drupal8&#39;s REST API and Ember Datastore and Ember fastboot to achieve this.</description>
+This project is one of early adopters of &amp;lsquo;Progressive Decoupled&amp;rsquo; architecture. We made use Drupal8&amp;rsquo;s REST API and Ember Datastore and Ember fastboot to achieve this.</description>
     </item>
     
   </channel>

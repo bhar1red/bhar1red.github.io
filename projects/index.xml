@@ -39,7 +39,7 @@ A website of a federal client, that I worked on, had custom groups functionality
       <pubDate>Fri, 10 Nov 2017 16:00:42 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/drupal-7-tags-cleanup/</guid>
-      <description>One of the problems, user&#39;s face is too-many similar tags. Since tags can be created by multiple people, there is a posiblity of two users, creating same tag, with a minor difference.
+      <description>One of the problems, user&amp;rsquo;s face is too-many similar tags. Since tags can be created by multiple people, there is a posiblity of two users, creating same tag, with a minor difference.
 For example, informationTechnology, Information Technology, Information-Technology, information technology,&amp;hellip; are all valid tags and mean the same. When a user wants to tag a content, they often gets confused with which tag to use.
 This module, is created as a drush command, scans through such tags, identify which one to keep and deletes other tags.</description>
     </item>
@@ -88,7 +88,7 @@ Technologies Used : Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, A
       <guid>https://bargavkondapu.com/projects/the-american-institure-of-architects/</guid>
       <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
 The American Institute of Architects is a professional organization for architects in the United States. I feel privileged to work for this organization. As a web developer there, from 2015-2016, we built this website, using Drupal 8 and EmberJS.
-This project is one of early adopters of &amp;lsquo;Progressive Decoupled&amp;rsquo; architecture. We made use Drupal8&#39;s REST API and Ember Datastore and Ember fastboot to achieve this.</description>
+This project is one of early adopters of &amp;lsquo;Progressive Decoupled&amp;rsquo; architecture. We made use Drupal8&amp;rsquo;s REST API and Ember Datastore and Ember fastboot to achieve this.</description>
     </item>
     
   </channel>
