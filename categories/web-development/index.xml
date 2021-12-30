@@ -25,10 +25,9 @@ Technologies Used : Duda,</description>
       <pubDate>Wed, 11 Oct 2017 15:09:46 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/acquisition-gateway-gsa/</guid>
-      <description>The Acquisition Gateway is your workspace for acquisition professionals and federal buyers to connect with resources, tools and each other to improve acquisition government-wide.
-This website is built in Drupal 7 and AngularJS, in a progress decoupled architecture. Aside from regular updates and changes, I have enhanced search functionality, developed custom modules to remove duplicate taxonomy and to create organic groups based on taxonomy.
-Project URL: https://hallways.cap.gsa.gov
-Technologies Used : Drupal, Apache Solr, Github, Amazon AWS, AngularJS.</description>
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+The Acquisition Gateway is your workspace for acquisition professionals and federal buyers to connect with resources, tools and each other to improve acquisition government-wide.
+This website is built in Drupal 7 and AngularJS, in a progress decoupled architecture. Aside from regular updates and changes, I have enhanced search functionality, developed custom modules to remove duplicate taxonomy and to create organic groups based on taxonomy.</description>
     </item>
     
     <item>
@@ -37,10 +36,9 @@ Technologies Used : Drupal, Apache Solr, Github, Amazon AWS, AngularJS.</descrip
       <pubDate>Sun, 25 Jun 2017 14:53:00 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/firstnet/</guid>
-      <description>The FirstNet mission is to deploy, operate, maintain, and improve the first high-speed, nationwide wireless broadband network dedicated to public safety.
-This website is front facing , first step for the experience. It is implemented in drupal8, using panels and layout modules. This site is robust, secure and 508 Accessibility Compliant.
-Project URL: https://www.firstnet.com/
-Technologies Used : Drupal, Jenkins, Acquia, Amazon AWS.</description>
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+The FirstNet mission is to deploy, operate, maintain, and improve the first high-speed, nationwide wireless broadband network dedicated to public safety.
+This website is front facing , first step for the experience. It is implemented in drupal8, using panels and layout modules. This site is robust, secure and 508 Accessibility Compliant.</description>
     </item>
     
     <item>
@@ -49,7 +47,8 @@ Technologies Used : Drupal, Jenkins, Acquia, Amazon AWS.</description>
       <pubDate>Sun, 11 Dec 2016 14:32:21 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/architectural-adventures/</guid>
-      <description>Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
 This is implemented during my job at AIA. It follows the same architecture and principles as that of the the previous project.
 Project URL: https://www.architecturaladventures.org/
 Technologies Used : Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, Amazon AWS.</description>

@@ -13,7 +13,8 @@
       <pubDate>Sun, 11 Dec 2016 14:32:21 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/architectural-adventures/</guid>
-      <description>Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
 This is implemented during my job at AIA. It follows the same architecture and principles as that of the the previous project.
 Project URL: https://www.architecturaladventures.org/
 Technologies Used : Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, Amazon AWS.</description>

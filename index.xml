@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Jan 2021 22:02:28 -0500</lastBuildDate><atom:link href="https://bargavkondapu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Disclaimer</title>
+      <link>https://bargavkondapu.com/disclaimer/</link>
+      <pubDate>Wed, 29 Dec 2021 20:29:34 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/disclaimer/</guid>
+      <description>Disclaimer About This is my personal blog, written and maintained by me, Bargav Kondapu. I use it as a medium to share my thoughts across.
+I do not run any ads or track any personal information on my site.
+I publish most of my content here, before sharing it across other social platforms, in accordance with Indie Web&amp;rsquo;s POSSE practice. Publish Own Site, Syndicate Elsewhere, so that I own my data.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://bargavkondapu.com/privacy-policy/</link>
+      <pubDate>Wed, 29 Dec 2021 20:23:08 -0500</pubDate>
+      
+      <guid>https://bargavkondapu.com/privacy-policy/</guid>
+      <description>Privacy Policy This is just an informational website, and have no intention in collecting or storing any user information.
+However, we use below third party tools, which might track user information. Please read their privacy policy before continuing.
+ Disqus - To support commenting. You can read about their privacy policy here and you can opt out of their tracking here. Cloudinary - CDN to better serve images according to the device type.</description>
+    </item>
+    
+    <item>
       <title>A note from Bargav</title>
       <link>https://bargavkondapu.com/notes/41/</link>
       <pubDate>Fri, 01 Jan 2021 22:02:28 -0500</pubDate>
@@ -270,9 +292,9 @@ A website of a federal client, that I worked on, had custom groups functionality
       <pubDate>Fri, 10 Nov 2017 16:00:42 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/drupal-7-tags-cleanup/</guid>
-      <description>One of the problems, user&amp;rsquo;s face is too-many similar tags. Since tags can be created by multiple people, there is a posiblity of two users, creating same tag, with a minor difference.
-For example, informationTechnology, Information Technology, Information-Technology, information technology,&amp;hellip; are all valid tags and mean the same. When a user wants to tag a content, they often gets confused with which tag to use.
-This module, is created as a drush command, scans through such tags, identify which one to keep and deletes other tags.</description>
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+One of the problems, user&amp;rsquo;s face is too-many similar tags. Since tags can be created by multiple people, there is a posiblity of two users, creating same tag, with a minor difference.
+For example, informationTechnology, Information Technology, Information-Technology, information technology,&amp;hellip; are all valid tags and mean the same. When a user wants to tag a content, they often gets confused with which tag to use.</description>
     </item>
     
     <item>
@@ -303,10 +325,9 @@ X: So, how much would you charge?</description>
       <pubDate>Wed, 11 Oct 2017 15:09:46 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/acquisition-gateway-gsa/</guid>
-      <description>The Acquisition Gateway is your workspace for acquisition professionals and federal buyers to connect with resources, tools and each other to improve acquisition government-wide.
-This website is built in Drupal 7 and AngularJS, in a progress decoupled architecture. Aside from regular updates and changes, I have enhanced search functionality, developed custom modules to remove duplicate taxonomy and to create organic groups based on taxonomy.
-Project URL: https://hallways.cap.gsa.gov
-Technologies Used : Drupal, Apache Solr, Github, Amazon AWS, AngularJS.</description>
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+The Acquisition Gateway is your workspace for acquisition professionals and federal buyers to connect with resources, tools and each other to improve acquisition government-wide.
+This website is built in Drupal 7 and AngularJS, in a progress decoupled architecture. Aside from regular updates and changes, I have enhanced search functionality, developed custom modules to remove duplicate taxonomy and to create organic groups based on taxonomy.</description>
     </item>
     
     <item>
@@ -512,10 +533,9 @@ X : Growing beard isn&amp;rsquo;t as easy as you think buddy. Try to grow it, yo
       <pubDate>Sun, 25 Jun 2017 14:53:00 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/firstnet/</guid>
-      <description>The FirstNet mission is to deploy, operate, maintain, and improve the first high-speed, nationwide wireless broadband network dedicated to public safety.
-This website is front facing , first step for the experience. It is implemented in drupal8, using panels and layout modules. This site is robust, secure and 508 Accessibility Compliant.
-Project URL: https://www.firstnet.com/
-Technologies Used : Drupal, Jenkins, Acquia, Amazon AWS.</description>
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+The FirstNet mission is to deploy, operate, maintain, and improve the first high-speed, nationwide wireless broadband network dedicated to public safety.
+This website is front facing , first step for the experience. It is implemented in drupal8, using panels and layout modules. This site is robust, secure and 508 Accessibility Compliant.</description>
     </item>
     
     <item>
@@ -556,7 +576,8 @@ if (condition) { ........ } &amp;amp;&amp;amp; if (condition) { ......... } </de
       <pubDate>Sun, 11 Dec 2016 14:32:21 -0500</pubDate>
       
       <guid>https://bargavkondapu.com/projects/architectural-adventures/</guid>
-      <description>Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
+      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
+Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
 This is implemented during my job at AIA. It follows the same architecture and principles as that of the the previous project.
 Project URL: https://www.architecturaladventures.org/
 Technologies Used : Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, Amazon AWS.</description>
