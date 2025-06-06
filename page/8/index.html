@@ -3,10 +3,10 @@
 
 
 <head>
-	<meta name="generator" content="Hugo 0.91.0" />
+	<meta name="generator" content="Hugo 0.147.7">
   <meta charset="UTF-8"/>
   <meta name="description" content=" Hi! I am Bargav. I develop websites and help organizations establish their digital presence. I like sharing knowledge and inspirations, and having deep conversations with people.  "/>
-  <meta name="copyright" content="© 2021 Bargav Kondapu"/>
+  <meta name="copyright" content="© 2025 Bargav Kondapu"/>
   <meta name="keywords" content=""/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
@@ -20,9 +20,12 @@
 <meta name="author" content="Bargav Kondapu">
 
   <title>  Bargav Kondapu  </title>
-  <link rel="stylesheet" href="/css/w3.css">
+  
   <link rel="stylesheet" href="/css/bkondapu.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </noscript>
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#008b7d"/>
 </head>
@@ -31,67 +34,33 @@
 <body>
   <link rel="manifest" href="/manifest.json">
 
-<nav class="navigation w3-top w3-row w3-border w3-teal " >
-
-<div class="main-nav w3-bar  w3-xlarge w3-content">
-  <a href="/" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Bargav Kondapu</a>
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Projects</a>
-  
-  
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-none w3-hover-text-black " onclick="myFunction()">&#9776;</a>
+<div class="main-nav-bg">
+  <div class="site-title"><a href="/">Bargav Kondapu </a></div>
+  <nav class="main-nav">
+    
+      
+        <a href="/about" class="">About</a>
+      
+        <a href="/notes" class="">Notes</a>
+      
+        <a href="/posts" class="">Posts</a>
+      
+        <a href="/projects" class="">Projects</a>
+      
+    
+  </nav>
 </div>
 
-
-<div id="mobile-nav" class="w3-bar-block w3-teal w3-hide w3-hide-large">
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Projects</a>
-  
-  
-</div>
-</nav>
-
-
-<script>
-function myFunction() {
-    var x = document.getElementById("mobile-nav");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-
-
-<div class="header w3-content">
+<div class="header">
 
 </div>
 
-<div class="w3-container bk-maincontent">
+<div class="bk-maincontent">
 
 <main>
-  <div class="w3-container bk-list">
+  <div class="bk-list">
       
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         
         
         
@@ -101,37 +70,36 @@ One that only know what, needs to be told, &lsquo;how&rsquo;.</p>
  </p>
 
         
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> Jun 6, 2016 &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <a href="https://bargavkondapu.com/notes/note-14/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: dimgray;font-size: large;"> 1min read </span>
+        <span class="bk-meta"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
+        <span class="bk-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> Jun 6, 2016 &middot; </span>
+        <span class="bk-meta"> <a href="https://bargavkondapu.com/notes/note-14/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span class="bk-meta"> 1min read </span>
         
 
 
       </div>
 <hr>
 
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         
         
         
         <p> <blockquote>
-<p>&ldquo;It isn&rsquo;t the mountains ahead that wear you down. It&rsquo;s the pebble in your shoe.&rdquo; - Muhammad Ali</p>
-</blockquote>
+<p>&ldquo;It isn&rsquo;t the mountains ahead that wear you down. It&rsquo;s the pebble in your shoe.&rdquo; - Muhammad Ali</p></blockquote>
  </p>
 
         
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> Jun 4, 2016 &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <a href="https://bargavkondapu.com/notes/note-13/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: dimgray;font-size: large;"> 1min read </span>
+        <span class="bk-meta"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
+        <span class="bk-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> Jun 4, 2016 &middot; </span>
+        <span class="bk-meta"> <a href="https://bargavkondapu.com/notes/note-13/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span class="bk-meta"> 1min read </span>
         
 
 
       </div>
 <hr>
 
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         
         
         
@@ -139,17 +107,17 @@ One that only know what, needs to be told, &lsquo;how&rsquo;.</p>
  </p>
 
         
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> Feb 28, 2016 &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <a href="https://bargavkondapu.com/notes/note-12/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: dimgray;font-size: large;"> 1min read </span>
+        <span class="bk-meta"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
+        <span class="bk-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> Feb 28, 2016 &middot; </span>
+        <span class="bk-meta"> <a href="https://bargavkondapu.com/notes/note-12/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span class="bk-meta"> 1min read </span>
         
 
 
       </div>
 <hr>
 
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         
         
         
@@ -159,17 +127,17 @@ There is not much truth in the holy books.</p>
  </p>
 
         
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> Oct 11, 2015 &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <a href="https://bargavkondapu.com/notes/note-11/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: dimgray;font-size: large;"> 1min read </span>
+        <span class="bk-meta"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
+        <span class="bk-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> Oct 11, 2015 &middot; </span>
+        <span class="bk-meta"> <a href="https://bargavkondapu.com/notes/note-11/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span class="bk-meta"> 1min read </span>
         
 
 
       </div>
 <hr>
 
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         
         
         
@@ -182,17 +150,17 @@ Desperate to stand out, but compelled to fly with the flock.</p>
  </p>
 
         
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> Sep 14, 2015 &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <a href="https://bargavkondapu.com/notes/note-10/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: dimgray;font-size: large;"> 1min read </span>
+        <span class="bk-meta"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
+        <span class="bk-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> Sep 14, 2015 &middot; </span>
+        <span class="bk-meta"> <a href="https://bargavkondapu.com/notes/note-10/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span class="bk-meta"> 1min read </span>
         
 
 
       </div>
 <hr>
 
-      <div class="w3-content w3-panel bk-note-card ">
+      <div class="bk-note-card ">
         
         
         
@@ -200,10 +168,10 @@ Desperate to stand out, but compelled to fly with the flock.</p>
  </p>
 
         
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <i class="fa fa-calendar" aria-hidden="true"></i> Sep 12, 2015 &middot; </span>
-        <span style="color: dimgray;font-size: large;"> <a href="https://bargavkondapu.com/notes/note-9/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
-        <span style="color: dimgray;font-size: large;"> 1min read </span>
+        <span class="bk-meta"> <i class="fa fa-tag" aria-hidden="true"></i> Note &middot; </span>
+        <span class="bk-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> Sep 12, 2015 &middot; </span>
+        <span class="bk-meta"> <a href="https://bargavkondapu.com/notes/note-9/"> <i class="fa fa-chain"></i> Permalink </a> &middot; </span>
+        <span class="bk-meta"> 1min read </span>
         
 
 
@@ -212,7 +180,7 @@ Desperate to stand out, but compelled to fly with the flock.</p>
 
 
       
-<div class="w3-container w3-center bk-pagination">
+<div class="bk-pagination">
 
     <ul class="pagination pagination-default">
       <li class="page-item">
@@ -249,11 +217,10 @@ Desperate to stand out, but compelled to fly with the flock.</p>
 </main>
 </div>
 
-<hr>
 <div class="footer ">
-  <div class="w3-content">
-      <p class="w3-left"> © 2021 Bargav Kondapu </p>
-      <p class="w3-right"> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
+  <div>
+      <p> © 2025 Bargav Kondapu </p>
+      <p> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
   </div>
 </div>
 

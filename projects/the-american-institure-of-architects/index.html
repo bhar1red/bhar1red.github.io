@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="description" content="  aia.org, A decoupled website, built in drupal 8 and emberjs   "/>
-  <meta name="copyright" content="© 2021 Bargav Kondapu"/>
+  <meta name="copyright" content="© 2025 Bargav Kondapu"/>
   <meta name="keywords" content="[drupal, emberjs, aia, american institute of architects, website, web development]"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
@@ -19,9 +19,12 @@
 <meta name="author" content="Bargav Kondapu">
 
   <title>  The American Institure of Architects  </title>
-  <link rel="stylesheet" href="/css/w3.css">
+  
   <link rel="stylesheet" href="/css/bkondapu.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </noscript>
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#008b7d"/>
 </head>
@@ -29,77 +32,40 @@
 
 <body>
 
-<nav class="navigation w3-top w3-row w3-border w3-teal " >
-
-<div class="main-nav w3-bar  w3-xlarge w3-content">
-  <a href="/" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Bargav Kondapu</a>
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Projects</a>
-  
-  
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-none w3-hover-text-black " onclick="myFunction()">&#9776;</a>
+<div class="main-nav-bg">
+  <div class="site-title"><a href="/">Bargav Kondapu </a></div>
+  <nav class="main-nav">
+    
+      
+        <a href="/about" class="">About</a>
+      
+        <a href="/notes" class="">Notes</a>
+      
+        <a href="/posts" class="">Posts</a>
+      
+        <a href="/projects" class="">Projects</a>
+      
+    
+  </nav>
 </div>
 
 
-<div id="mobile-nav" class="w3-bar-block w3-teal w3-hide w3-hide-large">
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Projects</a>
-  
-  
-</div>
-</nav>
+
+<div class="bk-maincontent">
 
 
-<script>
-function myFunction() {
-    var x = document.getElementById("mobile-nav");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-
-
-<div class="header w3-content">
-
-</div>
-
-
-<div class="w3-container w3-content bk-maincontent">
-
-
-<div class="bk-cover w3-row">
-  <div class="bk-description w3-half w3-container">
+<div class="bk-cover">
+  <div class="bk-description">
     <h1 id="title">The American Institure of Architects</h1>
     <p>  aia.org, A decoupled website, built in drupal 8 and emberjs
-       </p>    <div class="w3-container bk-tags-list">
+       </p>    <div class="bk-tags-list">
 
   
-     <a href="https://bargavkondapu.com/categories/web-development">  <span class="w3-tag w3-light-grey"> #web-development </span> </a> &nbsp;
+     <a href="https://bargavkondapu.com/categories/web-development">  <span> #web-development </span> </a> &nbsp;
   
-     <a href="https://bargavkondapu.com/categories/drupal">  <span class="w3-tag w3-light-grey"> #Drupal </span> </a> &nbsp;
+     <a href="https://bargavkondapu.com/categories/drupal">  <span> #Drupal </span> </a> &nbsp;
   
-     <a href="https://bargavkondapu.com/categories/emberjs">  <span class="w3-tag w3-light-grey"> #EmberJS </span> </a> &nbsp;
+     <a href="https://bargavkondapu.com/categories/emberjs">  <span> #EmberJS </span> </a> &nbsp;
   
 
 </div>
@@ -108,13 +74,12 @@ function myFunction() {
 
   </div>
   
-  <div class="bk-cover-image w3-half w3-container">
+  <div class="bk-cover-image">
     <img src=" https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541962686/bargavkondapu.com/projects/aia-org.jpg " alt="The American Institute of Architects" style=" max-width: 100%; max-height: 100%;" >
     <span class="bk-image-credits"> Screenshot of aia.org </span>
   </div>
   
 </div>
-<hr>
 
 
 <section id="main">
@@ -134,11 +99,11 @@ function myFunction() {
 <br/> <br/>
    
 <hr>
-<div class="w3-bar bk-prevnext">
-  <div class="w3-left w3-bar-item">
+<div class="bk-prevnext-nav">
+  <div>
     
   </div>
-  <div class="w3-right w3-bar-item">
+  <div>
     
       <a class="next" href="https://bargavkondapu.com/projects/architectural-adventures/">   Architectural Adventures &#8811;   </a>
     
@@ -149,11 +114,10 @@ function myFunction() {
 
 </div>
 
-<hr>
 <div class="footer ">
-  <div class="w3-content">
-      <p class="w3-left"> © 2021 Bargav Kondapu </p>
-      <p class="w3-right"> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
+  <div>
+      <p> © 2025 Bargav Kondapu </p>
+      <p> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
   </div>
 </div>
 

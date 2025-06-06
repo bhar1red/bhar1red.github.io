@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="description" content="  Drupal 7 custom module to migrate from taxonomy to organic groups   "/>
-  <meta name="copyright" content="© 2021 Bargav Kondapu"/>
+  <meta name="copyright" content="© 2025 Bargav Kondapu"/>
   <meta name="keywords" content="[drupal, custom module, taxonomy, clean up tags, remove similar taxonomy, website, web development]"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
@@ -19,9 +19,12 @@
 <meta name="author" content="Bargav Kondapu">
 
   <title>  Drupal 7 Migrate Taxonomy to Organic Groups  </title>
-  <link rel="stylesheet" href="/css/w3.css">
+  
   <link rel="stylesheet" href="/css/bkondapu.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </noscript>
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#008b7d"/>
 </head>
@@ -29,73 +32,36 @@
 
 <body>
 
-<nav class="navigation w3-top w3-row w3-border w3-teal " >
-
-<div class="main-nav w3-bar  w3-xlarge w3-content">
-  <a href="/" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Bargav Kondapu</a>
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Projects</a>
-  
-  
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-none w3-hover-text-black " onclick="myFunction()">&#9776;</a>
+<div class="main-nav-bg">
+  <div class="site-title"><a href="/">Bargav Kondapu </a></div>
+  <nav class="main-nav">
+    
+      
+        <a href="/about" class="">About</a>
+      
+        <a href="/notes" class="">Notes</a>
+      
+        <a href="/posts" class="">Posts</a>
+      
+        <a href="/projects" class="">Projects</a>
+      
+    
+  </nav>
 </div>
 
 
-<div id="mobile-nav" class="w3-bar-block w3-teal w3-hide w3-hide-large">
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Projects</a>
-  
-  
-</div>
-</nav>
+
+<div class="bk-maincontent">
 
 
-<script>
-function myFunction() {
-    var x = document.getElementById("mobile-nav");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-
-
-<div class="header w3-content">
-
-</div>
-
-
-<div class="w3-container w3-content bk-maincontent">
-
-
-<div class="bk-cover w3-row">
-  <div class="bk-description w3-half w3-container">
+<div class="bk-cover">
+  <div class="bk-description">
     <h1 id="title">Drupal 7 Migrate Taxonomy to Organic Groups</h1>
     <p>  Drupal 7 custom module to migrate from taxonomy to organic groups
-       </p>    <div class="w3-container bk-tags-list">
+       </p>    <div class="bk-tags-list">
 
   
-     <a href="https://bargavkondapu.com/categories/drupal">  <span class="w3-tag w3-light-grey"> #Drupal </span> </a> &nbsp;
+     <a href="https://bargavkondapu.com/categories/drupal">  <span> #Drupal </span> </a> &nbsp;
   
 
 </div>
@@ -104,13 +70,12 @@ function myFunction() {
 
   </div>
   
-  <div class="bk-cover-image w3-half w3-container">
+  <div class="bk-cover-image">
     <img src=" https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541969158/bargavkondapu.com/projects/code-preview.jpg " alt="Programming Code" style=" max-width: 100%; max-height: 100%;" >
     <span class="bk-image-credits"> © [cronislaw] /Adobe Stock </span>
   </div>
   
 </div>
-<hr>
 
 
 <section id="main">
@@ -128,13 +93,13 @@ function myFunction() {
 <br/> <br/>
    
 <hr>
-<div class="w3-bar bk-prevnext">
-  <div class="w3-left w3-bar-item">
+<div class="bk-prevnext-nav">
+  <div>
     
       <a class="previous" href="https://bargavkondapu.com/projects/drupal-7-tags-cleanup/">   &#8810; Drupal 7 Tags Cleanup  </a>
     
   </div>
-  <div class="w3-right w3-bar-item">
+  <div>
     
       <a class="next" href="https://bargavkondapu.com/projects/haveli-bistro/">   Haveli Bistro &#8811;   </a>
     
@@ -145,11 +110,10 @@ function myFunction() {
 
 </div>
 
-<hr>
 <div class="footer ">
-  <div class="w3-content">
-      <p class="w3-left"> © 2021 Bargav Kondapu </p>
-      <p class="w3-right"> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
+  <div>
+      <p> © 2025 Bargav Kondapu </p>
+      <p> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
   </div>
 </div>
 

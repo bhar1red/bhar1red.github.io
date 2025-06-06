@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="description" content="  Incredibly stupid but lucky or Incredibly genius but unlucky?   "/>
-  <meta name="copyright" content="© 2021 Bargav Kondapu"/>
+  <meta name="copyright" content="© 2025 Bargav Kondapu"/>
   <meta name="keywords" content="[interactions, interaction with stranger]"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
@@ -19,9 +19,12 @@
 <meta name="author" content="Bargav Kondapu">
 
   <title>  Interactions of B  </title>
-  <link rel="stylesheet" href="/css/w3.css">
+  
   <link rel="stylesheet" href="/css/bkondapu.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </noscript>
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#008b7d"/>
 </head>
@@ -29,63 +32,26 @@
 
 <body>
 
-<nav class="navigation w3-top w3-row w3-border w3-teal " >
-
-<div class="main-nav w3-bar  w3-xlarge w3-content">
-  <a href="/" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Bargav Kondapu</a>
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Projects</a>
-  
-  
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-none w3-hover-text-black " onclick="myFunction()">&#9776;</a>
+<div class="main-nav-bg">
+  <div class="site-title"><a href="/">Bargav Kondapu </a></div>
+  <nav class="main-nav">
+    
+      
+        <a href="/about" class="">About</a>
+      
+        <a href="/notes" class="">Notes</a>
+      
+        <a href="/posts" class="">Posts</a>
+      
+        <a href="/projects" class="">Projects</a>
+      
+    
+  </nav>
 </div>
 
 
-<div id="mobile-nav" class="w3-bar-block w3-teal w3-hide w3-hide-large">
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Projects</a>
-  
-  
-</div>
-</nav>
 
-
-<script>
-function myFunction() {
-    var x = document.getElementById("mobile-nav");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-
-
-<div class="header w3-content">
-
-</div>
-
-
-<div class="w3-container w3-content bk-maincontent">
+<div class="bk-maincontent">
 
 
  <section id="main">
@@ -116,26 +82,33 @@ function myFunction() {
 
   
     <div class="bk-social-share">
-    <details>
-        <summary> <span class="pointer-link"><i class="fa fa-share"> Share </i></span></summary>
-        <span class="w3-tag " style="background-color: #1DA1F2; ">
-      <a target="_blank" href="https://www.twitter.com/share?url=https%3a%2f%2fbargavkondapu.com%2finteractions%2finteraction-20%2f" rel="noopener"> <i class="fa fa-twitter"></i> Tweet </a></span>
-        <span class="w3-tag " style="background-color: #3B5998; ">
-      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbargavkondapu.com%2finteractions%2finteraction-20%2f" rel="noopener"> <i class="fa fa-facebook"></i> Share </a></span>
-        <span class="w3-tag " style="background-color: #0077B5; ">
-      <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fbargavkondapu.com%2finteractions%2finteraction-20%2f&title=Interactions%20of%20B&summary=Would%20you%20be%20incredibly%20stupid%2c%20but%20lucky%20or%20incredibly%20genius%2c%20but%20unlucky%3f%20Interaction%20with%203%20kids%20that%20my%20wife%20was%20babysitting.%20They%20were%20watching%20some%20random%20game%20reviewer%e2%80%99s%20video%2c%20where%20he%20was%20asking%20different%20%e2%80%98what%20would%20you%20choose%3f%e2%80%99%20questions%20and%20showing%20polls%20of%20what%20other%20people%20chose%20afterwards.%0aOne%20of%20the%20question%20is%20%e2%80%9cWould%20you%20be%20incredibly%20stupid%2c%20but%20lucky%20or%20be%20incredibly%20genius%2c%20but%20unlucky%3f%e2%80%9d%0aKid%201%3a%20What%20question%20is%20that%2c%20of%20course%20I%20would%20choose%20genius.&source=BargavKondapu" rel="noopener"> <i class="fa fa-linkedin"></i> Share </a></span>
-    </details>
+  <details>
+    <summary>
+      <span class="pointer-link" aria-label="Share this post">
+        <i class="fa fa-share"></i> Share
+      </span>
+    </summary>
+    <nav class="bk-social-links" aria-label="Share on social media">
+      <a target="_blank" href="https://www.twitter.com/share?url=https%3a%2f%2fbargavkondapu.com%2finteractions%2finteraction-20%2f" rel="noopener" aria-label="Share on Twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbargavkondapu.com%2finteractions%2finteraction-20%2f" rel="noopener" aria-label="Share on Facebook">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fbargavkondapu.com%2finteractions%2finteraction-20%2f&title=Interactions%20of%20B&summary=%3ch3%20id%3d%22would-you-be-incredibly-stupid-but-lucky-or-incredibly-genius-but-unlucky%22%3eWould%20you%20be%20incredibly%20stupid%2c%20but%20lucky%20or%20incredibly%20genius%2c%20but%20unlucky%3f%3c%2fh3%3e%0a%3cp%3eInteraction%20with%203%20kids%20that%20my%20wife%20was%20babysitting.%20They%20were%20watching%20some%20random%20game%20reviewer%e2%80%99s%20video%2c%20where%20he%20was%20asking%20different%20%e2%80%98what%20would%20you%20choose%3f%e2%80%99%20questions%20and%20showing%20polls%20of%20what%20other%20people%20chose%20afterwards.%3c%2fp%3e%0a%3cp%3eOne%20of%20the%20question%20is%20%e2%80%9cWould%20you%20be%20incredibly%20stupid%2c%20but%20lucky%20or%20be%20incredibly%20genius%2c%20but%20unlucky%3f%e2%80%9d%3c%2fp%3e%0a%3cp%3eKid%201%3a%20What%20question%20is%20that%2c%20of%20course%20I%20would%20choose%20genius.%3c%2fp%3e&source=BargavKondapu" rel="noopener" aria-label="Share on LinkedIn">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </nav>
+  </details>
 </div>
-
-     <br/>
    <hr>
-   <div class="w3-bar bk-prevnext">
-  <div class="w3-left w3-bar-item">
+   <div class="bk-prevnext-nav">
+  <div>
     
       <a class="previous" href="https://bargavkondapu.com/interactions/interaction-19/">   &#8810; previous  </a>
     
   </div>
-  <div class="w3-right w3-bar-item">
+  <div>
     
   </div>
 </div>
@@ -162,11 +135,10 @@ s.setAttribute('data-timestamp', +new Date());
 
 </div>
 
-<hr>
 <div class="footer ">
-  <div class="w3-content">
-      <p class="w3-left"> © 2021 Bargav Kondapu </p>
-      <p class="w3-right"> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
+  <div>
+      <p> © 2025 Bargav Kondapu </p>
+      <p> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
   </div>
 </div>
 

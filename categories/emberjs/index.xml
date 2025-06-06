@@ -4,32 +4,23 @@
     <title>EmberJS on Bargav Kondapu</title>
     <link>https://bargavkondapu.com/categories/emberjs/</link>
     <description>Recent content in EmberJS on Bargav Kondapu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Dec 2016 14:32:21 -0500</lastBuildDate><atom:link href="https://bargavkondapu.com/categories/emberjs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2016 14:32:21 -0500</lastBuildDate>
+    <atom:link href="https://bargavkondapu.com/categories/emberjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architectural Adventures</title>
       <link>https://bargavkondapu.com/projects/architectural-adventures/</link>
       <pubDate>Sun, 11 Dec 2016 14:32:21 -0500</pubDate>
-      
       <guid>https://bargavkondapu.com/projects/architectural-adventures/</guid>
-      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
-Architectural Adventures is the official travel program of The American Institute of Architects, offering first-rate experiences in breathtaking destinations across the globe.
-This is implemented during my job at AIA. It follows the same architecture and principles as that of the the previous project.
-Project URL: https://www.architecturaladventures.org/
-Technologies Used : Drupal, EmberJS, NodeJs, ElasticSearch, Travis-CI, Github, Amazon AWS.</description>
+      <description>&lt;p&gt;[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.architecturaladventures.org/&#34;&gt;Architectural Adventures&lt;/a&gt; is the official travel program of &lt;a href=&#34;https://www.aia.org/&#34;&gt;The American Institute of Architects&lt;/a&gt;, offering first-rate experiences in breathtaking destinations across the globe.&lt;/p&gt;&#xA;&lt;p&gt;This is implemented during my job at AIA. It follows the same architecture and principles as that of the the &lt;a href=&#34;https://bargavkondapu.com/projects/the-american-institute-of-architects&#34;&gt;previous project&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Project URL:&lt;/strong&gt; &lt;a href=&#34;https://www.architecturaladventures.org/&#34;&gt;https://www.architecturaladventures.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technologies Used :&lt;/strong&gt;  &lt;a href=&#34;https://www.drupal.org/&#34;&gt;Drupal&lt;/a&gt;, &lt;a href=&#34;https://www.emberjs.com/&#34;&gt;EmberJS&lt;/a&gt;,&#xA;&lt;a href=&#34;https://nodejs.org/en/&#34;&gt;NodeJs&lt;/a&gt;, &lt;a href=&#34;https://www.elastic.co/&#34;&gt;ElasticSearch&lt;/a&gt;, &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis-CI&lt;/a&gt;, &lt;a href=&#34;https://github.com/&#34;&gt;Github&lt;/a&gt;, &lt;a href=&#34;https://aws.amazon.com/&#34;&gt;Amazon AWS&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The American Institure of Architects</title>
       <link>https://bargavkondapu.com/projects/the-american-institure-of-architects/</link>
       <pubDate>Sun, 11 Dec 2016 19:00:51 +0000</pubDate>
-      
       <guid>https://bargavkondapu.com/projects/the-american-institure-of-architects/</guid>
-      <description>[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))
-The American Institute of Architects is a professional organization for architects in the United States. I feel privileged to work for this organization. As a web developer there, from 2015-2016, we built this website, using Drupal 8 and EmberJS.
-This project is one of early adopters of &amp;lsquo;Progressive Decoupled&amp;rsquo; architecture. We made use Drupal8&amp;rsquo;s REST API and Ember Datastore and Ember fastboot to achieve this.</description>
+      <description>&lt;p&gt;[comment]: # (Project should contain Summary, Description, Repo and Live urls, Screenshot or demo video and Tutorials( if any.))&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https:://www.aia.org&#34;&gt;The American Institute of Architects&lt;/a&gt; is a professional organization for architects in the United States. I feel privileged to work for this organization. As a web developer there, from 2015-2016, we built this website, using Drupal 8 and EmberJS.&lt;/p&gt;&#xA;&lt;p&gt;This project is one of early adopters of &amp;lsquo;Progressive Decoupled&amp;rsquo; architecture. We made use Drupal8&amp;rsquo;s REST API and Ember Datastore and Ember fastboot to achieve this.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

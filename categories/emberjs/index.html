@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="description" content="     "/>
-  <meta name="copyright" content="© 2021 Bargav Kondapu"/>
+  <meta name="copyright" content="© 2025 Bargav Kondapu"/>
   <meta name="keywords" content=""/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
@@ -19,9 +19,12 @@
 <meta name="author" content="Bargav Kondapu">
 
   <title>  EmberJS  </title>
-  <link rel="stylesheet" href="/css/w3.css">
+  
   <link rel="stylesheet" href="/css/bkondapu.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </noscript>
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#008b7d"/>
 </head>
@@ -29,100 +32,91 @@
 
 <body>
 
-<nav class="navigation w3-top w3-row w3-border w3-teal " >
-
-<div class="main-nav w3-bar  w3-xlarge w3-content">
-  <a href="/" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Bargav Kondapu</a>
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black w3-hide-medium  w3-hide-small">Projects</a>
-  
-  
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-none w3-hover-text-black " onclick="myFunction()">&#9776;</a>
+<div class="main-nav-bg">
+  <div class="site-title"><a href="/">Bargav Kondapu </a></div>
+  <nav class="main-nav">
+    
+      
+        <a href="/about" class="">About</a>
+      
+        <a href="/notes" class="">Notes</a>
+      
+        <a href="/posts" class="">Posts</a>
+      
+        <a href="/projects" class="">Projects</a>
+      
+    
+  </nav>
 </div>
 
 
-<div id="mobile-nav" class="w3-bar-block w3-teal w3-hide w3-hide-large">
-  
-  
-    <a href="/about" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">About</a>
-  
-    <a href="/notes" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Notes</a>
-  
-    <a href="/interactions" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Interactions</a>
-  
-    <a href="/posts" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Posts</a>
-  
-    <a href="/projects" class="w3-bar-item w3-button w3-hover-none w3-hover-text-black">Projects</a>
-  
-  
-</div>
-</nav>
 
-
-<script>
-function myFunction() {
-    var x = document.getElementById("mobile-nav");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-
-
-<div class="header w3-content">
-
-</div>
-
-
-<div class="w3-container w3-content bk-maincontent">
+<div class="bk-maincontent">
 
 <main>
   <a href="https://bargavkondapu.com/categories/emberjs/"> <h2> EmberJS </h2> </a>
-  <div class="w3-container bk-tags-list">
+  Tags: <div class="bk-tags-list">
     
         
-            <a href="https://bargavkondapu.com/categories/angularjs/"><span class="w3-tag w3-light-grey"> #angularjs </span> </a>
-        
-    
-        
-            <a href="https://bargavkondapu.com/categories/drupal/"><span class="w3-tag w3-light-grey"> #drupal </span> </a>
+            <a href="https://bargavkondapu.com/tags/development/"><span> #development </span> </a>
         
     
         
-            <a href="https://bargavkondapu.com/categories/duda/"><span class="w3-tag w3-light-grey"> #duda </span> </a>
+            <a href="https://bargavkondapu.com/tags/digital-marketing/"><span> #digital marketing </span> </a>
         
     
         
-            <a href="https://bargavkondapu.com/categories/emberjs/"><span class="w3-tag w3-light-grey"> #emberjs </span> </a>
+            <a href="https://bargavkondapu.com/tags/leadership/"><span> #leadership </span> </a>
         
     
         
-            <a href="https://bargavkondapu.com/categories/web-development/"><span class="w3-tag w3-light-grey"> #web-development </span> </a>
+            <a href="https://bargavkondapu.com/tags/motivation/"><span> #motivation </span> </a>
+        
+    
+        
+            <a href="https://bargavkondapu.com/tags/mythology/"><span> #mythology </span> </a>
+        
+    
+        
+            <a href="https://bargavkondapu.com/tags/philosophy/"><span> #philosophy </span> </a>
+        
+    
+</div>
+ <br/>
+  Categories: <div class="bk-tags-list">
+    
+        
+            <a href="https://bargavkondapu.com/categories/angularjs/"><span> #angularjs </span> </a>
+        
+    
+        
+            <a href="https://bargavkondapu.com/categories/drupal/"><span> #drupal </span> </a>
+        
+    
+        
+            <a href="https://bargavkondapu.com/categories/duda/"><span> #duda </span> </a>
+        
+    
+        
+            <a href="https://bargavkondapu.com/categories/emberjs/"><span> #emberjs </span> </a>
+        
+    
+        
+            <a href="https://bargavkondapu.com/categories/web-development/"><span> #web-development </span> </a>
         
     
 </div>
 
   <hr>
-  <div class="w3-container" id="bk-posts-list">
-  <div class="w3-row-padding">
+  <div id="bk-posts-list">
+  <div>
     
     
-      <div class="w3-col l4 m6 w3-center">
+      <div>
           <a href="https://bargavkondapu.com/projects/architectural-adventures/">
-        <div class="w3-card-2 bk-post-card">
+        <div class="bk-post-card">
           <img alt="Architectural Adventures " src="https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541962729/bargavkondapu.com/projects/architectural-adventures-aia.jpg " style="width: 100%; height: 200px; object-fit: cover;">
-          <div class="w3-content">
+          <div>
             <h4>Architectural Adventures</h4>
             <p>  A decoupled website, build in drupal and emberjs
                </p>
@@ -130,11 +124,11 @@ function myFunction() {
       </div></a>
       </div>
     
-      <div class="w3-col l4 m6 w3-center">
+      <div>
           <a href="https://bargavkondapu.com/projects/the-american-institure-of-architects/">
-        <div class="w3-card-2 bk-post-card">
+        <div class="bk-post-card">
           <img alt="The American Institute of Architects " src="https://res.cloudinary.com/dkjdeuwlv/image/upload/c_scale,w_auto,q_auto,f_auto/v1541962686/bargavkondapu.com/projects/aia-org.jpg " style="width: 100%; height: 200px; object-fit: cover;">
-          <div class="w3-content">
+          <div>
             <h4>The American Institure of Architects</h4>
             <p>  aia.org, A decoupled website, built in drupal 8 and emberjs
                </p>
@@ -146,7 +140,7 @@ function myFunction() {
 </div>
 
   
-<div class="w3-container w3-center bk-pagination">
+<div class="bk-pagination">
 
 </div>
 
@@ -154,11 +148,10 @@ function myFunction() {
 
 </div>
 
-<hr>
 <div class="footer ">
-  <div class="w3-content">
-      <p class="w3-left"> © 2021 Bargav Kondapu </p>
-      <p class="w3-right"> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
+  <div>
+      <p> © 2025 Bargav Kondapu </p>
+      <p> <a href="/disclaimer"> Disclaimer </a> | <a href="/privacy-policy"> Privacy Policy </a></p>
   </div>
 </div>
 
