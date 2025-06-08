@@ -197,9 +197,9 @@ hr {
 
 .bk-pagination ul li {
   display: inline-block;
-  font-size: 1em;
-  padding: 0.2em 0.7em;
+  padding: 0.2em 0.2em;
   border-radius: 4px;
+  font-size: initial;
   transition: background 0.2s;
 }
 
