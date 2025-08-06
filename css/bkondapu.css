@@ -9,43 +9,37 @@
   --color-muted: #666;          /* For meta, disabled, less important text */
 
   /* Typography */
-  --font-family-base: 'Inter', 'Helvetica Neue', Arial, system-ui, sans-serif;
-  --font-family-mono: 'Fira Mono', 'Menlo', 'Monaco', monospace;
+  --font-family-base: 'Roboto', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  --font-family-mono: 'Roboto Mono', 'Fira Mono', 'Menlo', monospace;
 
-  --font-size-base: 18px;
-  --font-size-h1: 2.2em;
-  --font-size-h2: 1.7em;
-  --font-size-h3: 1.3em;
-  --font-size-h4: 1em;
-  --font-size-meta: 0.75em;
-  --font-size-footer: 0.95em;
-  --font-size-tag: 0.9em;
-  --font-size-image-credits: 0.8em;
-  --font-size-card: 1em;
+  --font-size-base: 16px;
+  --font-size-h1: 2.5rem;  /* 40px */
+  --font-size-h2: 2rem;    /* 32px */
+  --font-size-h3: 1.5rem;  /* 24px */
+  --font-size-h4: 1.25rem; /* 20px */
+  --font-size-meta: 0.875rem; /* 14px */
+  --font-size-footer: 0.875rem;
+  --font-size-tag: 0.875rem;
+  --font-size-image-credits: 0.75rem;
+  --font-size-card: 1rem;
 
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
 
-  --line-height-base: 1.7;
+  --line-height-base: 1.75;
   --line-height-heading: 1.2;
-  --line-height-card: 1.4;
-
-  --letter-spacing-base: -0.01em;
-  --letter-spacing-title: 0.02em;
+  --line-height-card: 1.5;
 
   /* Layout */
-  --max-width-content: 700px;
-  --max-width-card: 700px;
-  --max-width-footer: 700px;
+  --max-width-content: 720px;
+  --max-width-card: 720px;
+  --max-width-footer: 720px;
 
   /* Spacing */
-  --space-section: 2em;
-  --space-card: 2em;
-  --space-nav-v: 2em;
-  --space-nav-v-mobile: 1em;
-  --space-gap: 2em;
-  --space-gap-mobile: 1em;
+  --space-section: 3em;
+  --space-card: 1.5em;
+  --space-gap: 2.5em;
 
   /* Breakpoints */
   --breakpoint-mobile: 768px;
@@ -61,6 +55,8 @@ html, body {
   line-height: var(--line-height-base);
   margin: 0;
   padding: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
