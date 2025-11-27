@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Bargav Kondapu</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jun 2025 12:30:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 20:11:44 -0500</lastBuildDate>
     <atom:link href="https://bargavkondapu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flux 2 They Nailed It Again</title>
+      <link>https://bargavkondapu.com/posts/flux-2-they-nailed-it-again/</link>
+      <pubDate>Tue, 25 Nov 2025 20:11:44 -0500</pubDate>
+      <guid>https://bargavkondapu.com/posts/flux-2-they-nailed-it-again/</guid>
+      <description>&lt;p&gt;When Black Forest Labs announced flux 1 a year ago, it blew my mind. Up until that point, I was experimenting with Stable Diffusion(sdxl) models, which are okay but had lot of limitations, and generated all kinds of weird images - 6 fingers, 3 hands, distorted faces, etc.&lt;/p&gt;&#xA;&lt;p&gt;Flux 1 changed the game, it was accurate, realistic and when paired with LORAs, we can generate anything we can dream of. I was hooked, and I thought it is the pinnacle of AI image generation. It could not get any better than this.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Thoughts on AI-Assisted Coding</title>
       <link>https://bargavkondapu.com/posts/my-thoughts-on-ai-assisted-coding/</link>

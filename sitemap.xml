@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bargavkondapu.com/tags/ai/</loc>
-    <lastmod>2025-06-19T12:30:00-05:00</lastmod>
-  </url><url>
     <loc>https://bargavkondapu.com/</loc>
+    <lastmod>2025-11-25T20:11:44-05:00</lastmod>
+  </url><url>
+    <loc>https://bargavkondapu.com/tags/blogging/</loc>
+    <lastmod>2025-11-25T20:11:44-05:00</lastmod>
+  </url><url>
+    <loc>https://bargavkondapu.com/tags/development/</loc>
+    <lastmod>2025-11-25T20:11:44-05:00</lastmod>
+  </url><url>
+    <loc>https://bargavkondapu.com/posts/flux-2-they-nailed-it-again/</loc>
+    <lastmod>2025-11-25T20:11:44-05:00</lastmod>
+  </url><url>
+    <loc>https://bargavkondapu.com/tags/language/</loc>
+    <lastmod>2025-11-25T20:11:44-05:00</lastmod>
+  </url><url>
+    <loc>https://bargavkondapu.com/posts/</loc>
+    <lastmod>2025-11-25T20:11:44-05:00</lastmod>
+  </url><url>
+    <loc>https://bargavkondapu.com/tags/</loc>
+    <lastmod>2025-11-25T20:11:44-05:00</lastmod>
+  </url><url>
+    <loc>https://bargavkondapu.com/tags/ai/</loc>
     <lastmod>2025-06-19T12:30:00-05:00</lastmod>
   </url><url>
     <loc>https://bargavkondapu.com/posts/my-thoughts-on-ai-assisted-coding/</loc>
@@ -14,13 +32,7 @@
     <loc>https://bargavkondapu.com/tags/personal-reflection/</loc>
     <lastmod>2025-06-19T12:30:00-05:00</lastmod>
   </url><url>
-    <loc>https://bargavkondapu.com/posts/</loc>
-    <lastmod>2025-06-19T12:30:00-05:00</lastmod>
-  </url><url>
     <loc>https://bargavkondapu.com/tags/software-development/</loc>
-    <lastmod>2025-06-19T12:30:00-05:00</lastmod>
-  </url><url>
-    <loc>https://bargavkondapu.com/tags/</loc>
     <lastmod>2025-06-19T12:30:00-05:00</lastmod>
   </url><url>
     <loc>https://bargavkondapu.com/tags/technology/</loc>
@@ -64,9 +76,6 @@
   </url><url>
     <loc>https://bargavkondapu.com/notes/note-36/</loc>
     <lastmod>2020-09-05T04:05:04+00:00</lastmod>
-  </url><url>
-    <loc>https://bargavkondapu.com/tags/development/</loc>
-    <lastmod>2020-01-29T08:48:53-05:00</lastmod>
   </url><url>
     <loc>https://bargavkondapu.com/posts/if-by-rudyard-kipling/</loc>
     <lastmod>2020-01-29T08:48:53-05:00</lastmod>
